@@ -1,0 +1,52 @@
+:root
+{
+    --azul: #007aff;
+    --black: #333333;
+    --naranja: #f0582e;
+}
+.btn-warning
+{
+    background-color: var(--naranja);
+}
+.logo
+{
+    width: 170px;
+}.banner
+{
+    background-color: var(--azul);
+    height: 40vh;
+}
+.articule .tittle
+{
+    text-decoration: none;
+    color: var(--black);
+}
+.articule .atribbutes
+{
+    border: 1px solid red;
+    list-style: none;
+    padding: 0;
+}
+.articule .atribbutes li
+{
+    display: inline-block;
+    font-weight: bold;
+}
+.articule .atribbutes li:last-child
+{
+    margin-left: 30px;
+    position: relative;
+}
+.articule .atribbutes li:last-child::before
+{
+    content: '.';
+    position: absolute;
+    left: -16px;
+    bottom: 4px;
+
+}
+.articule img
+{
+    max-height: 300px;
+    object-fit: cover;
+}
